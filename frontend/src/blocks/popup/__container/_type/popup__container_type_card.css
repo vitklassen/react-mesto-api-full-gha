@@ -1,0 +1,8 @@
+.popup__container_type_card {
+    max-width: 75vw;
+    max-height: 75vh;
+    row-gap: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    z-index: 2;
+}

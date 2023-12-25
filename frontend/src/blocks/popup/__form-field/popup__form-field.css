@@ -1,0 +1,15 @@
+.popup__form-field {
+    max-height: 44px;
+    max-width: 358px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 13px;
+}
+.popup__form-field:last-of-type {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 576px){
+    .popup__form-field {
+        max-width: 238px;
+    }
+}

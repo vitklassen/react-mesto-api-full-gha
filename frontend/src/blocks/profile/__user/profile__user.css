@@ -1,0 +1,8 @@
+.profile__user {
+    display: flex;
+}
+@media screen and (max-width: 992px){
+    .profile__user {
+        flex-direction: column;
+    }
+}

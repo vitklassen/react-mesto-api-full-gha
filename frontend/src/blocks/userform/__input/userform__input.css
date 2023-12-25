@@ -1,0 +1,21 @@
+.userform__input {
+    display: block;
+    max-height: 27px;
+    max-width: 358px;
+    padding: 0;
+    padding-bottom: 11px;
+    border: none;
+    border-bottom: 2px solid #CCCCCC;
+    background-color: black;
+    color: white;
+    margin: 0;
+    margin-bottom: 30px;
+    outline: none;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.userform__input:last-of-type {
+    margin-bottom: 0;
+}

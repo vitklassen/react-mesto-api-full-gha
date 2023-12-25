@@ -1,0 +1,21 @@
+.profile__avatar {
+    margin: 0;
+    max-width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/*.profile__avatar:hover {
+    opacity: 0.6;
+    transition: opacity 0.1s linear;
+    cursor: pointer;
+    background-image: url("../../../image/profile/profile__avavtar-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 26px 26px;
+}
+@media screen and (max-width: 992px){
+    .profile__avatar {
+        margin: 0 auto;
+    }
+}*/

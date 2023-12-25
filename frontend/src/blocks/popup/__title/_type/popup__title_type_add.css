@@ -1,0 +1,11 @@
+.popup__title_type_add {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+}
+@media screen and (max-width: 576px){
+    .popup__title_type_add {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

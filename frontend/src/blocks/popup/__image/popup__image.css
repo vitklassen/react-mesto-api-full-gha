@@ -1,0 +1,5 @@
+.popup__image {
+    max-width: 120px;
+    aspect-ratio: 1;
+    margin: 0 auto 32px auto;
+}

@@ -1,0 +1,14 @@
+.userform__save-button {
+    width: 358px;
+    height: 50px;
+    background-color: white;
+    padding: 0;
+    color: blasck;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 216px;
+    border: none;
+}

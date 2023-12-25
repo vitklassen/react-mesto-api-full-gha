@@ -1,0 +1,7 @@
+.popup__container_type_info {
+    border-radius: 10px;
+    max-width: 430px;
+    background-color: white;
+    color: black;
+    padding: 60px 36px 60px 36px;
+}
