@@ -15,7 +15,7 @@ const limit = rateLimiter({
   standardHeaders: 'draft-7',
   legacyHeaders: false,
 });
-const { PORT, DB_URL } = process.env;
+const { PORT = 3000, DB_URL = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 const app = express();
 
 mongoose.connect(DB_URL).then(() => { console.log('MongoDB is connected'); });
