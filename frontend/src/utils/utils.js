@@ -8,12 +8,12 @@ export const settingsOptions = {
 };
 
 export const serverSettings = {
-  url: 'http://localhost:3000/',
+  url: 'https://api.vitklassen.nomoredomainsmonster.ru/',
   header: 'application/json',
 }
 
 export const authSettings = {
-  baseUrl: 'http://localhost:3000/',
+  baseUrl: 'https://api.vitklassen.nomoredomainsmonster.ru/',
   header: 'application/json'
 }
 

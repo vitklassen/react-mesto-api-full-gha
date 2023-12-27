@@ -24,6 +24,11 @@ app.use(bodyParser.json());
 app.use(helmet());
 app.use(limit);
 app.use(requestLogger);
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 app.use('/signin', require('./routes/signin'));
 app.use('/signup', require('./routes/signup'));
 
