@@ -2,6 +2,7 @@ const http2 = require('http2');
 const Card = require('../models/card');
 const NotFoundError = require('../errors/NotFoundError');
 const ForbiddenError = require('../errors/ForbiddenError');
+const BadRequestError = require('../errors/BadRequestError');
 
 module.exports.getAllCards = (req, res, next) => {
   Card.find({})
@@ -18,7 +19,13 @@ module.exports.createCard = (req, res, next) => {
     .then((card) => {
       res.status(http2.constants.HTTP_STATUS_CREATED).send(card);
     })
-    .catch((err) => next(err));
+    .catch((err) => {
+      if (err.name === 'ValidationError') {
+        next(new BadRequestError('Некорректные данные при создании карточки'));
+      } else {
+        next(err);
+      }
+    });
 };
 
 module.exports.deleteCard = (req, res, next) => {
