@@ -10,7 +10,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.85.122
+IP 158.160.85.122
 
 Frontend https://vitklassen.nomoredomainsmonster.ru
 
